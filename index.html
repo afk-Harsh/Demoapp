@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Lost?</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <h1>No more lostings find your ROUTES.</h1>
+    <form id="routeForm" action="#" method="post" onsubmit="showRoute(); return false;">
+        <label for="originInput">Origin:</label>
+        <input type="text" name="origin" id="originInput" placeholder="Enter origin location...">
+        
+        <label for="destinationInput">Destination:</label>
+        <input type="text" name="destination" id="destinationInput" placeholder="Enter destination location...">
+        
+        <input type="submit" value="Find Route">
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
